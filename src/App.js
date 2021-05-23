@@ -12,7 +12,7 @@ const App = () => {
     const [currentId, setCurrentId] = useState(null);
     const classes = useStyles();
     const dispatch = useDispatch();
-
+    console.log('fasz')
     useEffect(() => {
         dispatch(getPosts());
     }, [currentId, dispatch]);
